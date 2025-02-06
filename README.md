@@ -6,9 +6,9 @@ Este projeto é um rastreador de status de vídeos, desenvolvido com Spring Boot
 
 Este projeto utiliza o GitHub Actions para automação do pipeline de CI/CD. O workflow realiza as seguintes etapas:
 
-1 - Compilação e Testes: O código é compilado e os testes são executados utilizando o Maven.
-2 - Análise de Qualidade de Código com SonarQube: O projeto é analisado automaticamente pelo SonarCloud.
-3 - Criação e Envio da Imagem Docker: O código é empacotado em uma imagem Docker e enviada para o Docker Hub.
+1. Compilação e Testes: O código é compilado e os testes são executados utilizando o Maven.
+2. Análise de Qualidade de Código com SonarQube: O projeto é analisado automaticamente pelo SonarCloud.
+3. Criação e Envio da Imagem Docker: O código é empacotado em uma imagem Docker e enviada para o Docker Hub.
 Para mais detalhes, consulte o arquivo .github/workflows/build.yml.
 
 # SonarCloud
